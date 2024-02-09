@@ -56,7 +56,7 @@ janedoe@example.com (Customer)
 123456
 ```
 
-### PAYPAL DUMMY ACCOUNT
+### PayPal Dummy Account
 
 ```
 Email : sb-l0d7a21644483@personal.example.com
