@@ -1,0 +1,75 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+#navbar {
+  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
+}
+
+#carousel {
+  padding-bottom: 25px;
+}
+
+
+#mess{
+  padding-top: 120px;
+
+}
+
+#navcontainer {
+  background: black;
+}
+
+#navcontainer a {
+  color: rgb(255, 255, 255);
+  font-size: 0.95rem;
+}
+
+.dropdown-menu.show {
+  background: black;
+}
+
+a.dropdown-item:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+a.dropdown-item:hover:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+a.dropdown-item:hover {
+  background-color: black;
+}
+
+.navbar-toggler-icon{
+  background-color: white;
+}
+
+
+@media (min-width: 576px){
+.ml-sm-5, .mx-sm-5 {
+    margin-left: -1rem!important;
+}}
+
